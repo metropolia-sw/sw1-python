@@ -16,21 +16,13 @@ Jotta voit käyttää GitHubia, rekisteröidy sen käyttäjäksi osoitteessa <ht
 
 Kun olet luonut itsellesi käyttäjätilin GitHubiin, voit luoda sinne repositorioita eli tallennuspaikkoja projekteille.
 
-## Repositorion luominen GitHubissa
+On kaksi tapaa yhdistää VS Code ja GitHub. VS Code tarjoaa valmiin "publish to GitHub" toiminnon, joka yhdistää projektin github tiliin, luo uuden repositorion sekä lokaalisti että githubissa, ja puskee projektin nykyisen tilan githubiin. Tämän voi myös halutessaan tehdä "manuaalisesti" luomalla ensin GitHub:iin repositorion, luomalla lokaalin repositorion, ja yhdistämällä nämä toisiinsa. Alta löytyy ohjeet molempiin versioihin. 
 
-1. Rekisteröidy GitHubin käyttäjäksi osoitteessa <https://github.com/>.
-1. Kirjauduttuasi sisään paina **Repositories**-otsikon vieressä olevaa **New**-painiketta.
-1. Tee itsellesi oma repositorio alla olevan kuvan mukaisesti ja anna sen nimeksi esimerkiksi `python-harjoitukset`.
-1. Paina lopuksi **Create repository** -painiketta.
-
-![Uuden repositorion luonti](img/gh-new-repo.png)
-
-Tämän jälkeen VS Code-kehittimessä oleva projekti pitää liitetään GitHub-projektiin
-
-## Git ja Visual Studio Code
-
+## Gitin lataaminen
 Ennen kuin voit käyttää Git-versionhallintaa, sinun on asennettava Git-ohjelmisto omalle tietokoneellesi. Lataa ja asenna se osoitteesta <https://git-scm.com/downloads> ohjeiden mukaisesti.
 
+
+## Git ja Visual Studio Code
 Gitin asennuksen jälkeen voit ottaa sen käyttöön Python-projektissasi:
 
 1. Avaa VS Code ja avaa projekti, jonka haluat liittää Git-versionhallintaan.
@@ -42,17 +34,27 @@ Gitin asennuksen jälkeen voit ottaa sen käyttöön Python-projektissasi:
 
 ![Git alustus](img/vscode-init-repo.png)
 
-### Vaihtoehtoisesti voit tehdä Git repositorion alustamisen myös "käsin" terminaalissa
+## Vaihtoehtoisesti voit tehdä Git repositorion alustamisen myös "käsin" terminaalissa
+### Luo repositorio GitHub:iin
+1. Kirjauduttuasi sisään GitHub:iin paina **Repositories**-otsikon vieressä olevaa **New**-painiketta.
+1. Tee itsellesi oma repositorio alla olevan kuvan mukaisesti ja anna sen nimeksi esimerkiksi `python-harjoitukset`.
+1. Paina lopuksi **Create repository** -painiketta.
+
+![Uuden repositorion luonti](img/gh-new-repo.png)
+
+Tämän jälkeen VS Code-kehittimessä oleva projekti pitää liitetään GitHub-projektiin
+### Luo lokaali repositorio
 
 1. Alusta uusi Git-repositorio komennolla `git init`.
 1. Lisää tiedostot versionhallintaan komennolla `git add .`.
 1. Tee ensimmäinen commit komennolla `git commit -m "Initial commit"`.
 
+### Yhdistä repositoriot toisiinsa
 Tämän jälkeen paikallinen Git-repositorio on valmis, ja voit liittää sen GitHubissa luomaasi repositorioon, tähän on muutamia eri vaihtoehtoja:
 
 - Yksinkertaisin tapa liittää paikallinen Git-repositorio GitHubissa luomaasi repositorioon on käyttää VS Code -editorin sisäänrakennettua Git-tukea.
     1. Avaa Command Palette painamalla `Ctrl+Shift+P`.
-    1. Kirjoita kenttään `Publish to GitHub` ja valitse se.
+    1. Kirjoita kenttään `GIT: Add Remote` ja valitse se.
     1. Seuraa ohjeita.
 - Voit käyttää kirjautumiseen myös GitHubin omaa laajennusta VS Code -editorissa
     1. Asenna laajennus etsimällä se VS Code -editorin laajennushallinnasta (Extensions) nimellä "GitHub Pull Requests".
