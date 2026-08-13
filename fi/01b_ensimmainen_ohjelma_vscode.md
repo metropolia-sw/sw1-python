@@ -24,7 +24,15 @@ Ensimmäisenä tehtävänä onkin asentaa ohjelmointiympäristö, joka koostuu P
 Python-tulkki on ohjelma, joka lause kerrallaan tulkkaa Python-kieliset lauseet tietokoneen suorittimen ymmärtämään muotoon eli konekielelle. Sen asentaminen on välttämätöntä, jotta voit ohjelmoida Pythonilla.
 
 1. Siirry selaimella sivulle <https://www.python.org/downloads/>.
-1. Lataa viimeisin versio (3.x.x) Pythonista omalle käyttöjärjestelmällesi. (Windows, MacOS) ja käynnistä asennusohjelma.
+1. Lataa viimeisin versio (3.x.x) Pythonista omalle käyttöjärjestelmällesi. 
+
+Huomaa, että Python tarjoaa kahta eri asennusvaihtoehtoa: Install Manager, ja standalone installer. 
+Suosittelemme käyttämään tällä kurssilla standalone installeria, ja nämä ohjeet on kirjoitettu olettaen, että olet ladannut standalone installerin. 
+Valitse siis etusivulta *get standalone installer*.
+Seuraava kuva näyttää latauslinkin python download sivuston etusivulla:
+![Python standalone installer latauslinkki download sivuston etusivulla](img/standalone_installer.png)
+
+(Windows, MacOS) ja käynnistä asennusohjelma.
 1. Etene ohjatun toiminnon esittämällä tavalla, ja asenna Python asennusohjelman ehdottamaan oletussijaintiin.
    - Valitse asetus "_Add Python to PATH_" asennusikkunasta, jotta Python löytyy myös komentoriviltä tarvittaessa helposti.
 
