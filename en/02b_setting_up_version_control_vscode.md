@@ -16,12 +16,12 @@ To use GitHub, register as a user at <https://github.com/>.
 
 Once you have created a user account on GitHub, you can create repositories, or storage locations for projects, there.
 
-There are two ways to connect VS Code and github. VS Code provides a "publish to github" functionality, that can be used to connect VS Code to a github account, create a new repository both locally and in github, and push the local repository to github in one go. 
-You can also create a repository in github, create a local repository, and connect the two "manually". Below are instructions for both ways. 
+There are two ways to connect VSCode and GitHub. VSCode provides a "publish to GitHub" functionality, that can be used to connect VSCode to a GitHub account, create a new repository both locally and in GitHub, and push the local repository to GitHub in one go.
+You can also create a repository in GitHub, create a local repository, and connect the two "manually". Below are instructions for both ways.
+
 ## Installing Git
+
 Before you can use Git version control, you need to install the Git software on your computer. Download and install it from <https://git-scm.com/downloads> according to the instructions.
-
-
 
 ## Git and Visual Studio Code
 
@@ -51,7 +51,7 @@ After this, the project in the VS Code editor needs to be connected to the GitHu
 1. Add the files to version control with the command `git add .`.
 1. Make the first commit with the command `git commit -m "Initial commit"`.
 
-### Connect your local repository to github
+### Connect your local repository to GitHub
 After this, the local Git repository is ready, and you can connect it to the repository you created on GitHub. There are several different options for doing this:
 
 - The simplest way to connect the local Git repository to the repository you created on GitHub is to use the built-in Git support in the VS Code editor.
