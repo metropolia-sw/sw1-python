@@ -175,6 +175,25 @@ while first <= 5:
 5 times 5 is 25
 ```
 
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[first = 1]
+    B --> C{first <= 5?}
+
+    C -- No --> Z([End])
+    C -- Yes --> D[second = 1]
+
+    D --> E{second <= 5?}
+    E -- No --> F[first = first + 1]
+    F --> C
+
+    E -- Yes --> G[Print first times second]
+    G --> H[second = second + 1]
+    H --> E
+```
+
+
 Let's extend the dice rolling example so that the program prints out how many rounds on _average_ is needed before getting a pair of sixes.
 
 To calculate the average, let's set the number of simulated rounds to a very large number, a hundred thousand:
