@@ -30,7 +30,7 @@ The project involves developing an [adventure game](https://fi.wikipedia.org/wik
   - Suitable also for minors ("K12")
 - Offers the player several alternative routes for progressing from the beginning to the end
 - Command-line interface with a main loop and menus
-- The total number of lines of code is at least approximately 200 lines and at most 1000 lines, including comments ???
+- The total number of lines of code is at least approximately 200 lines and at most 1000 lines, including comments
 - Documentation
   - `readme.md` file in the repository: accurately describes the game's idea, objective, operating principles, and functionalities, as well as how the sustainable development perspective has been taken into account
   - appropriate comments in the code
