@@ -16,20 +16,14 @@ To use GitHub, register as a user at <https://github.com/>.
 
 Once you have created a user account on GitHub, you can create repositories, or storage locations for projects, there.
 
-## Creating a Repository on GitHub
+There are two ways to connect VS Code and github. VS Code provides a "publish to github" functionality, that can be used to connect VS Code to a github account, create a new repository both locally and in github, and push the local repository to github in one go. 
+You can also create a repository in github, create a local repository, and connect the two "manually". Below are instructions for both ways. 
+## Installing Git
+Before you can use Git version control, you need to install the Git software on your computer. Download and install it from <https://git-scm.com/downloads> according to the instructions.
 
-1. Register as a GitHub user at <https://github.com/>.
-1. After logging in, press the **New** button next to the **Repositories** heading.
-1. Create your own repository as shown in the image below and name it, for example, `python-exercises`.
-1. Finally, press the **Create repository** button.
 
-![Creating a new repository](img/gh-new-repo.png)
-
-After this, the project in the VS Code editor needs to be connected to the GitHub project.
 
 ## Git and Visual Studio Code
-
-Before you can use Git version control, you need to install the Git software on your computer. Download and install it from <https://git-scm.com/downloads> according to the instructions.
 
 After installing Git, you can set it up for your Python project:
 
@@ -42,17 +36,27 @@ After installing Git, you can set it up for your Python project:
 
 ![Git initialization](img/vscode-init-repo.png)
 
-### Alternatively, you can also initialize the Git repository "manually" in the terminal
+## Alternatively, you can also initialize the Git repository "manually" in the terminal
+### Create a repository in GitHub
+1. After logging in to GitHub, press the **New** button next to the **Repositories** heading.
+1. Create your own repository as shown in the image below and name it, for example, `python-exercises`.
+1. Finally, press the **Create repository** button.
+
+![Creating a new repository](img/gh-new-repo.png)
+
+### Create a local repository
+After this, the project in the VS Code editor needs to be connected to the GitHub project.
 
 1. Initialize a new Git repository with the command `git init`.
 1. Add the files to version control with the command `git add .`.
 1. Make the first commit with the command `git commit -m "Initial commit"`.
 
+### Connect your local repository to github
 After this, the local Git repository is ready, and you can connect it to the repository you created on GitHub. There are several different options for doing this:
 
 - The simplest way to connect the local Git repository to the repository you created on GitHub is to use the built-in Git support in the VS Code editor.
   1. Open the Command Palette by pressing `Ctrl+Shift+P`.
-  1. Enter `Publish to GitHub` in the field and select it.
+  1. Enter `GIT: Add Remote` in the field and select it.
   1. Follow the instructions.
 - You can also use GitHub's own extension to log in through the VS Code editor.
   1. Install the extension by searching for it in the VS Code editor's extension manager (Extensions) using the name "GitHub Pull Requests".
