@@ -9,7 +9,7 @@
    1. [Version Control and Git](02a_version_control_and_git.md)
    2. [Setting Up Version Control](02b_setting_up_version_control_vscode.md)
 3. [Variables and Interactive Programs](03_variables_and_interactive_programs.md)
-4. [Selection Structure (if)](04_conditional_structure.md)
+4. [Conditional statement (if)](04_conditional_structure.md)
 5. [Loop structure (while)](05_while_loop.md)
 6. [List structures and iterative loop structures (for)](06_list_structure_and_for_loop.md)
 7. [Function](07_functions.md)
