@@ -20,13 +20,13 @@ The project is divided into two stages:
 
 The application must be submitted according to the instructions by the final submission deadline. During the final week of the course, an assessment session is held in which the student presents their work personally to the teachers.
 
-The project involves developing an [adventure game](https://fi.wikipedia.org/wiki/Seikkailupeli) played through a command-line interface. The topic and content are otherwise free, but the game must comply with the constraints and requirements presented below.
+The project involves developing an [adventure game](https://en.wikipedia.org/wiki/Adventure_game) played through a command-line interface. The topic and content are otherwise free, but the game must comply with the constraints and requirements presented below.
 
 ## Requirements
 
 - The game has a story and the player has a clear objective
   - Note that the technical implementation is more important than the game idea, so there is no need to put pressure on yourself to come up with a great idea
-  - The game idea takes into account a [Sustainable Development Goal](https://www.ykliitto.fi/kestava-kehitys) in some way.
+  - The game idea takes into account a [Sustainable Development Goal](https://www-ykliitto-fi.translate.goog/kestava-kehitys?_x_tr_sl=auto&_x_tr_tl=fi&_x_tr_hl=fi&_x_tr_pto=wapp) in some way.
   - Suitable also for minors ("K12")
 - Offers the player several alternative routes for progressing from the beginning to the end
 - Command-line interface with a main loop and menus
