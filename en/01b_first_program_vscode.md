@@ -26,9 +26,9 @@ The Python interpreter is a program that translates Python-language statements o
 1. Open the page [https://www.python.org/downloads/](https://www.python.org/downloads/) in a browser.
 2. Download the latest version (3.x.x) of Python for your operating system (Windows, MacOS) and start the installer.
 
-Note, that Python offers two download options: Install Manager, and standalone installer. 
-In this course, we recommend using the standalone installer, and these instructions expect you to use the standalone installer. 
-To download the standalone installer, click the *get standalone installer* on the python downloads frontpage. 
+Note, that Python offers two download options: Install Manager, and standalone installer.
+In this course, we recommend using the standalone installer, and these instructions expect you to use the standalone installer.
+To download the standalone installer, click the _get standalone installer_ on the python downloads frontpage.
 The following image shows the download link on the python downloads site:
 ![Python standalone installer latauslinkki download sivuston etusivulla](img/standalone_installer.png)
 
@@ -130,7 +130,7 @@ python-exercises
 ├── mod03
 │   └── examples and exercise code files from module 3
 ├── and so on...
-├── game project
+├── project
 │   ├── readme.md - project documentation
 │   └── code for the programming project task and related exercises
 └── .venv

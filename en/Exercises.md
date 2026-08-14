@@ -55,7 +55,7 @@ The weight in modern units:
 
 ### Project 1. Starting the Programming Project Assignment
 
-- Create a separate folder `peliprojekti/` for the game inside the Python exercise project, and create a `readme.md` file inside it. Add the name of your game as the heading and your own name below it.
+- Create a separate folder `project/` for the game inside the Python exercise project, and create a `readme.md` file inside it. Add the name of your game as the heading and your own name below it.
 - Create a program in the folder that asks for the player's name and age, stores them in variables, and prints them to the console.
 
 ---
