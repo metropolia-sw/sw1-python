@@ -91,7 +91,7 @@ In this course, programming is therefore primarily done without assistance provi
 
 ## Version Control
 
-The idea behind version control stems from an old problem: what happens when a file is edited and updated, but the old versions should not be destroyed? Without version control, confusing file names such as “raportti_final”, “raportti_final2”, and “raportti_oikeasti_final” can easily arise. Version control solves this by systematically keeping track of all changes without the need to constantly create new files.
+The idea behind version control stems from an old problem: what happens when a file is edited and updated, but the old versions should not be destroyed? Without version control, confusing file names such as “report_final”, “report_final2”, and “raportti_oikeasti_final” can easily arise. Version control solves this by systematically keeping track of all changes without the need to constantly create new files.
 
 Version control concepts are used in many everyday applications and services, such as Google Docs, [Wikipedia](https://fi.wikipedia.org/w/index.php?title=Versionhallinta&action=history), and Dropbox. These applications have version histories that record all changes made to a document. Users can view old versions, restore previous versions, or compare the differences between different versions.
 
