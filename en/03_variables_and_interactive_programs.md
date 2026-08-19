@@ -8,13 +8,13 @@ An example of an interactive program would be a program that asks the user to en
 
 ## Printing
 
-Let's start with Python's printing function called print. The following program prints out the text "Hello, world!":
+Let's start with Python's printing function called `print`. The following program prints out the text "Hello, world!":
 
 ```python
 print('Hello, world!')
 ```
 
-The printing is handled with a Python built-in function called print. The argument to the function is called inside brackets. In this case the message to print is a string literal "Hello, world!". A string literal is a string that is written directly into the program code. A string literal is written inside apostrophes ' ' or quotation marks " ". The same program could also be written as shown here:
+The printing is handled with a Python built-in function called print. The argument to the function is called inside brackets. In this case the message to print is a string literal "Hello, world!". A string literal is a string that is written directly into the program code. A string literal is written inside apostrophes ' ' (also known as single quotes) or quotation marks " " (also known as double quotes). The same program could also be written as shown here:
 
 ```python
 print("Hello, world!")
@@ -59,9 +59,9 @@ user = input('Enter your name: ')
 print("Nice to meet you, " + user + "!")
 ```
 
-The user input is read using the built-in input function. The function receives the text to be printed on the screen as an argument. The text should tell the user what information they are expected to enter.
+The user input is read using the built-in `input` function. The function receives the text to be printed on the screen as an argument. The text should tell the user what information they are expected to enter.
 
-The built-in input function waits for input from the user's keyboard. The user ends the input with the Enter key. When the input has been give, the value of the input function is the string entered by the user.
+The built-in `input` function waits for input from the user's keyboard. The user ends the input with the Enter key. When the input has been given, the value of the input function is the string entered by the user.
 
 The string must be saved into a _variable_ so that it can be used later in the program. Here we are using a variable called _user_. User input is saved into the memory of the computer and can be fetched from memory using the name of the variable. The name of a variable is a sort of a handle or name tag that can be used to retrieve the value from memory.
 
@@ -109,6 +109,8 @@ print(points)  # prints: 120
 ```
 
 In this case `points` was initially `50`, but the **assignment operator** (`=`) changed its value to `120`.
+
+Variable name can be anything, but a good convention is to use descriptive names that indicate what the variable is used for. For example, a variable that stores the number of points in a game could be named `points`, while a variable that stores the name of a player could be named `player_name`.
 
 ### Using Variables in Output
 
@@ -214,6 +216,16 @@ Text containing _Unicode_ characters can be stored on a computer using different
 Variables and constants can be used in mathematical operations. The order of operations can be indicated with parentheses when necessary.
 
 The arithmetic operations are addition (`+`), subtraction (`-`), multiplication (`*`) and division (`/`). In addition, there is the modulo operator (`%`) for the remainder, as well as the floor division operator (`//`) and the exponential operator (`**`).
+
+| operation      | symbol | example  |
+| -------------- | ------ | -------- |
+| addition       | `+`    | `a + b`  |
+| subtraction    | `-`    | `a - b`  |
+| multiplication | `*`    | `a * b`  |
+| division       | `/`    | `a / b`  |
+| modulo         | `%`    | `a % b`  |
+| floor division | `//`   | `a // b` |
+| exponentiation | `**`   | `a ** b` |
 
 The program below asks for a temperature in Fahrenheit and converts it to Celsius. The conversion is done by subtracting 32 from the Fahrenheit temperature and multiplying the difference by the constant 5/9.
 
