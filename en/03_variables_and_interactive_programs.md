@@ -14,7 +14,7 @@ Let's start with Python's printing function called `print`. The following progra
 print('Hello, world!')
 ```
 
-The printing is handled with a Python built-in function called print. The argument to the function is called inside brackets. In this case the message to print is a string literal "Hello, world!". A string literal is a string that is written directly into the program code. A string literal is written inside apostrophes ' ' (also known as single quotes) or quotation marks " " (also known as double quotes). The same program could also be written as shown here:
+The printing is handled with a Python [built-in](https://docs.python.org/3/library/functions.html) function called print. The argument to the function is called inside brackets. In this case the message to print is a string literal "Hello, world!". A string literal is a string that is written directly into the program code. A string literal is written inside apostrophes ' ' (also known as single quotes) or quotation marks " " (also known as double quotes). The same program could also be written as shown here:
 
 ```python
 print("Hello, world!")
