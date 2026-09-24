@@ -2,7 +2,7 @@
 
 Periytyminen on olio-ohjelmoinnin mekanismi, jossa luokkien välille muodostetaan hierarkia: yksittäisestä luokasta, jotka kutsutaan yliluokaksi, johdetaan sitä tarkentavia ja täsmentäviä aliluokkia.
 
-Tässä moduulissa opit käyttämään periytymissuhdetta kirjoittaessasi oliopohjaisia Python-olioita.
+Tässä moduulissa opit käyttämään periytymissuhdetta kirjoittaessasi oliopohjaisia Python-ohjelmia.
 
 ## Yliluokka ja aliluokka
 
